@@ -4,14 +4,14 @@ CN_arduino_miniProject
 ### Arduino Send Messages from Android to LCD with MIT App Inventor
 
 In this project, we will learn how to build an android app that will enable us to send messages to Arduino via Bluetooth to be displayed on a 16×2 LCD. 
-This android app will be created with MIT App Inventor. The transmission of the message will be through the HC-05 Bluetooth module.
+This android app will be created with MIT App Inventor. The transmission of the message will be through the HC-06 Bluetooth module.
 
 
 
 ## 1. Send Messages to Arduino using Android App Project Overview
-We will create an Arduino IoT app through HC-05 and MIT App Inventor to display messages on a 16×2 LCD. The android app features a text box which allows the user to type a message to be sent to Arduino. The ‘Send Message’ button will be used to send the message to Arduino via Bluetooth. The message will then be displayed on a 16×2 LCD connected with Arduino.
+We will create an Arduino IoT app through HC-06 and MIT App Inventor to display messages on a 16×2 LCD. The android app features a text box which allows the user to type a message to be sent to Arduino. The ‘Send Message’ button will be used to send the message to Arduino via Bluetooth. The message will then be displayed on a 16×2 LCD connected with Arduino.
 
-To enable Bluetooth connectivity, there is a button saying ‘Connect Bluetooth’ that opens a List picker which opens up Bluetooth devices currently paired with the android phone. You can select HC-05 Bluetooth module from the list. Another label saying Bluetooth is Connected or disconnected is also shown on the screen.
+To enable Bluetooth connectivity, there is a button saying ‘Connect Bluetooth’ that opens a List picker which opens up Bluetooth devices currently paired with the android phone. You can select HC-06 Bluetooth module from the list. Another label saying Bluetooth is Connected or disconnected is also shown on the screen.
 
 
 ![MIT-APP-Inventor-Display-messages-Overview](https://user-images.githubusercontent.com/79437477/187805756-03593213-10b0-470e-9312-48c167c6091a.jpg)
@@ -50,7 +50,7 @@ Follow the connections to connect HC-05 module with Arduino:
 * Bluetooth Rx with Arduino UNO Tx (D1)
 * Bluetooth VCC with Arduino UNO +5V
 * Bluetooth GND with Arduino UNO GND
-The schematic diagram below shows the connection between 16×2 LCD, HC-05 and Arduino UNO.
+The schematic diagram below shows the connection between 16×2 LCD, HC-06 and Arduino UNO.
 
 ![Arduino-with-16x2-LCD-and-HC-05](https://user-images.githubusercontent.com/79437477/187806430-e1e65c5e-b095-4ec6-8e33-8b2b97e64281.jpg)
 
