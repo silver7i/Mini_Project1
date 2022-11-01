@@ -1,5 +1,7 @@
 CN_arduino_miniProject
 
+<div>발표자료 https://www.notion.so/60f58ff51846441e9682a1d80708c729</div>
+
 # 0. Discription
 ### Arduino Send Messages from Android to LCD with MIT App Inventor
 
